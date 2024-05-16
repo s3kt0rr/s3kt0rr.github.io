@@ -356,7 +356,7 @@
 
    /* Lightbox
     * ------------------------------------------------------ */
-    // const ssLightbox = function() {
+    const ssLightbox = function() {
 
     //     // video lightbox
     //     const videoLightbox = function() {
@@ -379,43 +379,43 @@
     //     };
 
     //     // portfolio lightbox
-    //     const folioLightbox = function() {
+        const folioLightbox = function() {
 
-    //         const folioLinks = document.querySelectorAll('.brick .entry__link');
-    //         const modals = [];
+            const folioLinks = document.querySelectorAll('.brick .entry__link');
+            const modals = [];
     
-    //         folioLinks.forEach(function(link) {
-    //             let modalbox = link.getAttribute('href');
-    //             let instance = basicLightbox.create(
-    //                 document.querySelector(modalbox),
-    //                 {
-    //                     onShow: function(instance) {
-    //                         //detect Escape key press
-    //                         document.addEventListener("keydown", function(event) {
-    //                             event = event || window.event;
-    //                             if (event.key === "Escape") {
-    //                                 instance.close();
-    //                             }
-    //                         });
-    //                     }
-    //                 }
-    //             )
-    //             modals.push(instance);
-    //         });
+            folioLinks.forEach(function(link) {
+                let modalbox = link.getAttribute('href');
+                let instance = basicLightbox.create(
+                    document.querySelector(modalbox),
+                    {
+                        onShow: function(instance) {
+                            //detect Escape key press
+                            document.addEventListener("keydown", function(event) {
+                                event = event || window.event;
+                                if (event.key === "Escape") {
+                                    instance.close();
+                                }
+                            });
+                        }
+                    }
+                )
+                modals.push(instance);
+            });
     
-    //         folioLinks.forEach(function(link, index) {
-    //             link.addEventListener("click", function(event) {
-    //                 event.preventDefault();
-    //                 modals[index].show();
-    //             });
-    //         });
+            folioLinks.forEach(function(link, index) {
+                link.addEventListener("click", function(event) {
+                    event.preventDefault();
+                    modals[index].show();
+                });
+            });
     
-    //     };
+        };
 
     //     videoLightbox();
-    //     folioLightbox();
+     folioLightbox();
 
-    // }; // ssLightbox
+    }; // ssLightbox
 
 
    /* alert boxes
