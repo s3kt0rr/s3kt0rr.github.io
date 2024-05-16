@@ -356,66 +356,66 @@
 
    /* Lightbox
     * ------------------------------------------------------ */
-    const ssLightbox = function() {
+    // const ssLightbox = function() {
 
-        // video lightbox
-        const videoLightbox = function() {
+    //     // video lightbox
+    //     const videoLightbox = function() {
 
-            const videoLink = document.querySelector('.s-intro__content-video-btn');
-            if (!videoLink) return;
+    //         const videoLink = document.querySelector('.s-intro__content-video-btn');
+    //         if (!videoLink) return;
     
-            videoLink.addEventListener('click', function(event) {
+    //         videoLink.addEventListener('click', function(event) {
     
-                const vLink = this.getAttribute('href');
-                const iframe = "<iframe src='" + vLink + "' frameborder='0'></iframe>";
+    //             const vLink = this.getAttribute('href');
+    //             const iframe = "<iframe src='" + vLink + "' frameborder='0'></iframe>";
     
-                event.preventDefault();
+    //             event.preventDefault();
     
-                const instance = basicLightbox.create(iframe);
-                instance.show()
+    //             const instance = basicLightbox.create(iframe);
+    //             instance.show()
     
-            });
+    //         });
     
-        };
+    //     };
 
-        // portfolio lightbox
-        const folioLightbox = function() {
+    //     // portfolio lightbox
+    //     const folioLightbox = function() {
 
-            const folioLinks = document.querySelectorAll('.brick .entry__link');
-            const modals = [];
+    //         const folioLinks = document.querySelectorAll('.brick .entry__link');
+    //         const modals = [];
     
-            folioLinks.forEach(function(link) {
-                let modalbox = link.getAttribute('href');
-                let instance = basicLightbox.create(
-                    document.querySelector(modalbox),
-                    {
-                        onShow: function(instance) {
-                            //detect Escape key press
-                            document.addEventListener("keydown", function(event) {
-                                event = event || window.event;
-                                if (event.key === "Escape") {
-                                    instance.close();
-                                }
-                            });
-                        }
-                    }
-                )
-                modals.push(instance);
-            });
+    //         folioLinks.forEach(function(link) {
+    //             let modalbox = link.getAttribute('href');
+    //             let instance = basicLightbox.create(
+    //                 document.querySelector(modalbox),
+    //                 {
+    //                     onShow: function(instance) {
+    //                         //detect Escape key press
+    //                         document.addEventListener("keydown", function(event) {
+    //                             event = event || window.event;
+    //                             if (event.key === "Escape") {
+    //                                 instance.close();
+    //                             }
+    //                         });
+    //                     }
+    //                 }
+    //             )
+    //             modals.push(instance);
+    //         });
     
-            folioLinks.forEach(function(link, index) {
-                link.addEventListener("click", function(event) {
-                    event.preventDefault();
-                    modals[index].show();
-                });
-            });
+    //         folioLinks.forEach(function(link, index) {
+    //             link.addEventListener("click", function(event) {
+    //                 event.preventDefault();
+    //                 modals[index].show();
+    //             });
+    //         });
     
-        };
+    //     };
 
-        videoLightbox();
-        folioLightbox();
+    //     videoLightbox();
+    //     folioLightbox();
 
-    }; // ssLightbox
+    // }; // ssLightbox
 
 
    /* alert boxes
