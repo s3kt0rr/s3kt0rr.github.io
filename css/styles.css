@@ -103,7 +103,7 @@
     /* color-1(#f26522)
      * color-2(#035d5c)
      */
-    --color-1                      : rgb(131, 41, 0);
+    --color-1                      : #ED2B33;
     --color-2                      : rgb(0, 0, 0);
 
     /* theme color variations
@@ -2837,7 +2837,7 @@ img.u-pull-left {
     font-size   : calc(var(--text-size) * 1.1111);
     font-weight : 300;
     line-height : 1.8;
-    color       : var(--color-gray-19);
+    color       : var(--color-gray-12);
 }
 
 .section-header::before {
