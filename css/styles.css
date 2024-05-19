@@ -103,8 +103,8 @@
     /* color-1(#f26522)
      * color-2(#035d5c)
      */
-    --color-1                      : hsla(19, 89%, 54%, 1);
-    --color-2                      : hsla(179, 94%, 19%, 1);
+    --color-1                      : rgb(131, 41, 0);
+    --color-2                      : rgb(0, 0, 0);
 
     /* theme color variations
      */
@@ -158,12 +158,12 @@
     --color-gray-3                 : #f5f4f4;
     --color-gray-2                 : #f8f8f8;
     --color-gray-1                 : #fcfbfb;
-    --color-white                  : #ffffff;
+    --color-white                  : #000000;
 
     /* text
      */
     --color-text                   : var(--color-gray-19);
-    --color-text-dark              : var(--color-black);
+    --color-text-dark              : var(--color-1);
     --color-text-light             : var(--color-gray-14);
     --color-placeholder            : var(--color-gray-14);
 
@@ -185,8 +185,8 @@
     /* preloader
      */
     --color-preloader-bg           : var(--color-gray-19);
-    --color-loader                 : white;
-    --color-loader-light           : rgba(255, 255, 255, 0.1);
+    --color-loader                 : #ED2B33;
+    --color-loader-light           : rgba(0, 0, 0, 0.1);
 
     /* others
      */
@@ -524,7 +524,7 @@ body {
 }
 
 body {
-    background-color            : var(--color-body);
+    background-color            : black;
     -webkit-overflow-scrolling  : touch;
     -webkit-text-size-adjust    : 100%;
     -webkit-tap-highlight-color : rgba(0, 0, 0, 0);
@@ -1332,7 +1332,7 @@ body {
     font-size   : var(--base-font-size);
     font-weight : 400;
     line-height : var(--vspace-1);
-    color       : var(--color-text);
+    color       : white;
 }
 
 /* links
@@ -2186,9 +2186,9 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background   : var(--color-btn-primary);
-    border-color : var(--color-btn-primary);
-    color        : var(--color-btn-primary-text);
+    background   : var(--color-1);
+    border-color : var(--color-1);
+    color        : var(--color-gray-1);
 }
 
 .btn.btn--primary:focus,
@@ -2837,7 +2837,7 @@ img.u-pull-left {
     font-size   : calc(var(--text-size) * 1.1111);
     font-weight : 300;
     line-height : 1.8;
-    color       : var(--color-text-light);
+    color       : var(--color-gray-19);
 }
 
 .section-header::before {
@@ -2854,7 +2854,7 @@ img.u-pull-left {
 }
 
 .section-header.light-on-dark .title {
-    color : white;
+    color : var(--color-1);
 }
 
 .section-header.light-on-dark .desc {
@@ -3137,7 +3137,7 @@ img.u-pull-left {
 }
 
 .s-header__menu-links .current a {
-    color : white;
+    color : var(--color-1);
 }
 
 /* --------------------------------------------------------------------
@@ -3374,7 +3374,7 @@ img.u-pull-left {
     --content-padding-top    : 20vh;
     --content-padding-bottom : 9.6rem;
     z-index                  : 3;
-    background-color         : #1C1C24;
+    background-color         : black;
     width                    : 100%;
     height                   : 100vh;
     min-height               : calc(25.5 * var(--space));
@@ -3479,7 +3479,7 @@ img.u-pull-left {
     font-weight       : 600;
     font-size         : calc(var(--text-title-size) * var(--text-multiplier));
     line-height       : 1.227;
-    color             : white;
+    color             : var(--color-1);
     padding-top       : var(--vspace-0_75);
     padding-right     : 10vw;
     margin-top        : 0;
@@ -3834,7 +3834,7 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-services {
-    background-color : var(--color-gray-2);
+    background-color : black;
     padding-top      : var(--vspace-5);
     /* padding-bottom   : var(--vspace-5); */
 }
@@ -4164,7 +4164,7 @@ img.u-pull-left {
 }
 
 .s-clients h3 {
-    color      : white;
+    color      : var(--color-1);
     text-align : center;
     margin-top : 0;
 }
@@ -4372,7 +4372,7 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-footer {
-    background-color : var(--color-gray-2);
+    background-color : black;
     padding-top      : calc(5.5 * var(--space));
     /* padding-bottom   : var(--vspace-3); */
     margin-top       : auto;
