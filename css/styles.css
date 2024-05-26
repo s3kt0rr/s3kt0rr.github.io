@@ -2243,7 +2243,7 @@ button.btn--stroke:focus,
 button.btn--stroke:hover {
     background : var(--color-1) !important;
     border     : 2px solid var(--color-btn-stroke-hover);
-    color      : var(--color-btn-stroke-hover-text);
+    color      : var(--color-gray-1);
 }
 
 .btn--pill,
@@ -3385,7 +3385,7 @@ img.u-pull-left {
 /* --------------------------------------------------------------------
  * ## intro background
  * -------------------------------------------------------------------- */
-.s-intro__bg {
+/* .s-intro__bg {
     display             : block;
     background-image    : url(../images/bg_hero.png);
     background-repeat   : no-repeat;
@@ -3398,7 +3398,7 @@ img.u-pull-left {
     right               : 0;
     bottom              : 0;
     left                : auto;
-}
+} */
 
 .s-intro__bg::before {
     display        : block;
@@ -3444,7 +3444,7 @@ img.u-pull-left {
     position       : relative;
 }
 
-.s-intro__content-bg {
+/* .s-intro__content-bg {
     display             : block;
     background-image    : url(../images/intro-bg.jpg);
     background-repeat   : no-repeat;
@@ -3456,7 +3456,7 @@ img.u-pull-left {
     right               : var(--gutter);
     bottom              : var(--content-padding-bottom);
     left                : auto;
-}
+} */
 
 .s-intro__content-bg::before {
     display        : block;
