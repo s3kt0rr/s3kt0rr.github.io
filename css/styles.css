@@ -1345,7 +1345,7 @@ a {
 a:focus,
 a:hover,
 a:active {
-    color : var(--color-2);
+    color : var(--color-gray-1);
 }
 
 a:hover,
@@ -2186,9 +2186,9 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background   : var(--color-1);
-    border-color : var(--color-1);
-    color        : var(--color-gray-1);
+    background   : var(--color-gray-1);
+    border-color : var(--color-gray-1);
+    color        : var(--color-black);
 }
 
 .btn.btn--primary:focus,
@@ -2201,9 +2201,9 @@ button.btn--primary:hover,
 input[type="submit"].btn--primary:hover,
 input[type="reset"].btn--primary:hover,
 input[type="button"].btn--primary:hover {
-    background   : var(--color-btn-primary-hover);
-    border-color : var(--color-btn-primary-hover);
-    color        : var(--color-btn-primary-hover-text);
+    background   : var(--color-1);
+    border-color : var(--color-1);
+    color        : var(--color-gray-1);
 }
 
 /* button modifiers
@@ -2241,7 +2241,7 @@ button.btn--stroke {
 button.btn--stroke:focus,
 .btn--stroke:hover,
 button.btn--stroke:hover {
-    background : var(--color-btn-stroke-hover) !important;
+    background : var(--color-1) !important;
     border     : 2px solid var(--color-btn-stroke-hover);
     color      : var(--color-btn-stroke-hover-text);
 }
@@ -4394,7 +4394,7 @@ img.u-pull-left {
 }
 
 .s-footer .contact-list a {
-    color : var(--color-text);
+    color : var(--color-gray-12);
 }
 
 .s-footer .contact-list a:focus,
@@ -4462,8 +4462,8 @@ img.u-pull-left {
 .s-footer__subscribe input[type="email"] {
     --input-height   : 7.2rem;
     width            : calc(100% - var(--btn-width));
-    background-color : var(--color-gray-6);
-    color            : var(--color-text);
+    background-color : var(--color-gray-13);
+    color            : var(--color-gray-19);
     border           : none;
     padding          : var(--input-vpadding) calc(2.8rem - 1px);
     text-align       : left;
@@ -4509,7 +4509,7 @@ img.u-pull-left {
 }
 
 .s-footer__social svg path {
-    fill : var(--color-text);
+    fill : var(--color-1);
 }
 
 /* ------------------------------------------------------------------- 
