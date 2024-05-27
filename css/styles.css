@@ -2757,9 +2757,9 @@ td:last-child {
 
 .text-pretitle {
     font-weight    : 600;
-    font-size      : var(--text-sm);
+    font-size      : var(--text-xxl);
     text-transform : uppercase;
-    letter-spacing : .3em;
+    letter-spacing : .1em;
     color          : var(--color-1);
     margin-top     : 0;
 }
@@ -3786,7 +3786,7 @@ img.u-pull-left {
     }
 
     .s-intro__content-title {
-        --text-multiplier : .42;
+        --text-multiplier : .65;
         padding-right     : 0;
     }
 
