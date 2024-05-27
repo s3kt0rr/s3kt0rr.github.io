@@ -3812,7 +3812,7 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-    padding-top    : var(--vspace-5);
+    padding-top    : var(--vspace-4);
     /* padding-bottom : var(--vspace-5); */
 }
 
@@ -3822,7 +3822,7 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 800px) {
     .s-about {
-        padding-top    : var(--vspace-4);
+        padding-top    : var(--vspace-2);
         padding-bottom : var(--vspace-4_5);
     }
 }
@@ -3849,7 +3849,7 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 800px) {
     .s-services {
-        padding-top    : var(--vspace-4);
+        padding-top    : var(--vspace-2);
         padding-bottom : var(--vspace-4_5);
     }
 }
@@ -3862,7 +3862,7 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 .s-folio {
     background-color : var(--color-gray-19);
-    padding-top      : var(--vspace-5);
+    padding-top      : var(--vspace-4);
     padding-bottom   : var(--vspace-5);
 }
 
@@ -4122,7 +4122,7 @@ img.u-pull-left {
 
 @media screen and (max-width: 800px) {
     .s-folio {
-        padding-top    : var(--vspace-4);
+        padding-top    : var(--vspace-2);
         padding-bottom : var(--vspace-4_5);
     }
 
@@ -4373,7 +4373,7 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 .s-footer {
     background-color : black;
-    padding-top      : calc(5.5 * var(--space));
+    padding-top      : calc(4.5 * var(--space));
     /* padding-bottom   : var(--vspace-3); */
     margin-top       : auto;
     position         : relative;
@@ -4606,7 +4606,7 @@ img.u-pull-left {
 
 @media screen and (max-width: 800px) {
     .s-footer {
-        padding-top    : var(--vspace-4);
+        padding-top    : var(--vspace-2);
         padding-bottom : var(--vspace-2_5);
     }
 
