@@ -2759,7 +2759,7 @@ td:last-child {
 }
 
 .text-display-1 {
-    font-size: var(--text-xxl);
+    font-size: var(--text-xl);
     font-weight: 500;
     line-height: 1.5;
     margin-top: 0;
