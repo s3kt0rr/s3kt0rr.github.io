@@ -2804,6 +2804,7 @@ img.u-pull-left {
  * ## section header
  * ------------------------------------------------------------------- */
 .section-header {
+    border-top: 1px solid var(--color-gray-10);
     padding-top: var(--vspace-2_5);
     margin-bottom: var(--vspace-1_75);
     position: relative;
@@ -3829,8 +3830,8 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 .s-services {
     background-color: black;
-    padding-top: var(--vspace-5);
-    /* padding-bottom   : var(--vspace-5); */
+    padding-top: var(--vspace-4);
+    padding-bottom   : var(--vspace-4);
 }
 
 .s-services .list-block__item {
@@ -4510,7 +4511,7 @@ img.u-pull-left {
  * ## copyright
  * ------------------------------------------------------------------- */
 .ss-copyright span {
-    font-size: calc(var(--text-size) * 0.8889);
+    /* font-size: calc(var(--text-size) * 0.8889); */
     line-height: var(--vspace-1);
     display: inline-block;
 }
