@@ -2804,7 +2804,7 @@ img.u-pull-left {
  * ## section header
  * ------------------------------------------------------------------- */
 .section-header {
-    border-top: 1px solid var(--color-gray-10);
+    border-top: 1px solid var(--color-1);
     padding-top: var(--vspace-2_5);
     margin-bottom: var(--vspace-1_75);
     position: relative;
