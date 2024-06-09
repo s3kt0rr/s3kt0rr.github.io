@@ -2936,7 +2936,7 @@ img.u-pull-left {
 }
 
 .swiper-container .swiper-pagination-bullet-active {
-    background: var(--color-gray-19);
+    background: var(--color-1);
     opacity: 1;
 }
 
@@ -4402,7 +4402,7 @@ img.u-pull-left {
 }
 
 .s-footer__bottom {
-    border-top: 1px solid var(--color-gray-10);
+    border-top: 1px solid var(--color-1);
     margin-top: var(--vspace-2);
     padding-top: var(--vspace-1);
 }
